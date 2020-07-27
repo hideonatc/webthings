@@ -1,6 +1,6 @@
 BRO=chromium
-all:$(f)
-	$(BRO) $(f).html
+all: $(f)
+	$(BRO) $(f)
 git:
 	git add *
 	git commit -m --all

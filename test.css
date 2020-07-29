@@ -5,6 +5,17 @@ body{
 	background-attachment:fixed;
 	background-size:cover;
 }
+table{
+	border-spacing:5px;
+}
+table,th,td{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+th,td{
+	padding:5px;
+	text-align:center;
+}
 a:link{
 	color:green;
 }
